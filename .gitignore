@@ -1,7 +1,5 @@
 # Dependencies
 node_modules/
-pnpm-lock.yaml
-package-lock.json
 
 # Slidev build output
 dist/
