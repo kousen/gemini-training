@@ -450,27 +450,31 @@ gemini -s "Refactor this entire codebase"
 
 <v-clicks>
 
-- **Automatic snapshots** before file modifications
-- **Restore previous states** if something goes wrong
-- Essential for risky operations
-- Built-in safety net
+- **Automatic**: Snapshots created before each file modification
+- **Shadow Git**: Stored in `~/.gemini/history/` (not your repo)
+- **Includes**: Files + conversation + tool call
+- **Disabled by default**: Must enable in settings
 
 </v-clicks>
 
 ```json
-// ~/.gemini/settings.json (user) or .gemini/settings.json (project)
-{
-  "checkpointing": true
-}
+// ~/.gemini/settings.json
+{ "checkpointing": { "enabled": true } }
 ```
+
+---
+
+# Restoring Checkpoints
 
 ```bash
-# Restore from checkpoint
+# List and select a checkpoint to restore
 /restore
 
-# View available checkpoints
-/restore list
+# Shows timestamps + filename + tool name
+# e.g., 2025-06-22T10-00-00_000Z-app.py-write_file
 ```
+
+Restores files AND resets conversation to that point
 
 ---
 layout: image-left
