@@ -102,7 +102,7 @@ Kousen IT, Inc.
 <v-clicks>
 
 - Open-source AI agent from Google
-- Gemini 2.5 Pro with 1M token context window
+- **Gemini 3 Pro** (latest) or Gemini 2.5 Pro/Flash
 - Built-in tools: Google Search, file ops, shell, web fetch
 - Model Context Protocol (MCP) support
 - Designed for developers who live in the terminal
@@ -125,14 +125,27 @@ Kousen IT, Inc.
 
 ---
 
-# API Pricing
+# Models Available
 
 <v-clicks>
 
-- **Free Tier**: 50 requests/day, 1,500 requests/day
-- **Pay-as-you-go**: Competitive token pricing
-- **Gemini 2.5 Pro**: Best performance for coding
+- **Gemini 3 Pro**: Most intelligent, best for complex coding
+- **Gemini 2.5 Pro**: Strong performance, 1M token context
 - **Gemini 2.5 Flash**: Faster, lower cost option
+- **Auto routing**: CLI picks best model for each task
+
+</v-clicks>
+
+---
+
+# API Access
+
+<v-clicks>
+
+- **Free Tier**: Generous daily limits
+- **Google AI Ultra**: Full Gemini 3 Pro access
+- **Paid API Key**: Pay-as-you-go pricing
+- Enable via `/settings` → "Preview features"
 
 </v-clicks>
 
