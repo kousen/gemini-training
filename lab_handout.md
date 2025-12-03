@@ -25,6 +25,7 @@ This document contains hands-on exercises for learning to use Gemini CLI for pro
 ## Lab 0: Project Creation from Scratch
 
 **Duration**: 20 minutes
+
 **Goal**: Create a task manager application from nothing using Gemini CLI
 
 ### Setup
@@ -104,6 +105,7 @@ This document contains hands-on exercises for learning to use Gemini CLI for pro
 ## Lab 1: First Steps with Gemini CLI
 
 **Duration**: 10 minutes
+
 **Goal**: Get comfortable with the Gemini CLI interface and basic commands
 
 ### Setup
@@ -156,6 +158,7 @@ This document contains hands-on exercises for learning to use Gemini CLI for pro
 ## Lab 2: Code Exploration
 
 **Duration**: 15 minutes
+
 **Goal**: Use Gemini CLI to understand complex codebases
 
 ### Setup
@@ -220,6 +223,7 @@ Navigate to the project directory and start Gemini CLI.
 ## Lab 3: GEMINI.md and Context Management
 
 **Duration**: 20 minutes
+
 **Goal**: Set up effective project context using GEMINI.md files
 
 ### Setup
@@ -301,6 +305,7 @@ Continue with the project from Lab 2, or start fresh in a new directory.
 ## Lab 4: Test Generation
 
 **Duration**: 15 minutes
+
 **Goal**: Generate comprehensive test suites with Gemini CLI
 
 ### Setup
@@ -373,6 +378,7 @@ Use the project from previous labs or choose a new exercise project with existin
 ## Lab 5: Configuration and Safety
 
 **Duration**: 20 minutes
+
 **Goal**: Configure Gemini CLI for safe, efficient workflows
 
 ### Setup
@@ -473,6 +479,7 @@ echo "# Config Test" > README.md
 ## Lab 6: Advanced Features
 
 **Duration**: 30 minutes
+
 **Goal**: Master MCP servers, extensions, custom commands, and session management
 
 ### Part A: Session Management (5 minutes)
